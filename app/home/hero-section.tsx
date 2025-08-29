@@ -131,7 +131,7 @@ export function HeroSection() {
               <div className="relative bg-gradient-to-br from-gray-900/20 via-gray-800/20 to-gray-900/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 lg:p-8 border border-gray-700/30 group-hover:border-gray-600/50 transition-all duration-700">
                 <div className="relative overflow-hidden rounded-lg lg:rounded-2xl">
                   <Image
-                    src="/placeholder.svg?height=400&width=350"
+                    src="/doctor.png"
                     alt="Medical consultation"
                     width={350}
                     height={400}

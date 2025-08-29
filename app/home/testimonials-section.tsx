@@ -30,28 +30,28 @@ export function TestimonialsSection() {
         "Synaptix has transformed how I manage my health. The AI chatbot is incredibly helpful, and connecting with doctors is seamless!",
       author: "Sarah L.",
       title: "Patient",
-      avatar: "/placeholder.svg?height=64&width=64",
+  avatar: "/doctor.png",
     },
     {
       quote:
         "As a doctor, Synaptix provides an intuitive platform to connect with patients and manage appointments efficiently. Highly recommended!",
       author: "Dr. Alex M.",
       title: "Verified Doctor",
-      avatar: "/placeholder.svg?height=64&width=64",
+  avatar: "/doctor.png",
     },
     {
       quote:
         "The virtual appointments feature is a game-changer. I can get expert medical advice from the comfort of my home.",
       author: "John P.",
       title: "Patient",
-      avatar: "/placeholder.svg?height=64&width=64",
+  avatar: "/doctor.png",
     },
     {
       quote:
         "I was skeptical at first, but the Synaptix chatbot gave me accurate information that helped me understand my symptoms better before seeing a doctor.",
       author: "Emily R.",
       title: "Patient",
-      avatar: "/placeholder.svg?height=64&width=64",
+  avatar: "/doctor.png",
     },
   ]
 
@@ -79,7 +79,7 @@ export function TestimonialsSection() {
                         <p className="text-gray-300 text-lg italic mb-6">&quot;{testimonial.quote}&quot;</p>
                         <div className="flex items-center mt-4">
                           <Image
-                            src={testimonial.avatar || "/placeholder.svg"}
+                            src={testimonial.avatar || "/doctor.png"}
                             alt={testimonial.author}
                             width={48}
                             height={48}
