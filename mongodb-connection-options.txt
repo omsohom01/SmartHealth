@@ -1,0 +1,17 @@
+# MongoDB Connection Alternatives
+# Try these connection strings one by one in your .env.local file
+
+# Option 1: Current (simplified)
+MONGODB_URI=mongodb+srv://Rajanya:synaptix19251411620924@synaptixcluster.rvmby1e.mongodb.net/synaptix?retryWrites=true&w=majority
+
+# Option 2: With TLS disabled (for testing only)
+# MONGODB_URI=mongodb+srv://Rajanya:synaptix19251411620924@synaptixcluster.rvmby1e.mongodb.net/synaptix?retryWrites=true&w=majority&tls=false
+
+# Option 3: With TLS options
+# MONGODB_URI=mongodb+srv://Rajanya:synaptix19251411620924@synaptixcluster.rvmby1e.mongodb.net/synaptix?retryWrites=true&w=majority&tlsAllowInvalidCertificates=true&tlsInsecure=true
+
+# Option 4: With explicit SSL
+# MONGODB_URI=mongodb+srv://Rajanya:synaptix19251411620924@synaptixcluster.rvmby1e.mongodb.net/synaptix?retryWrites=true&w=majority&ssl=true&ssl_cert_reqs=CERT_NONE
+
+# Option 5: Alternative user (create in Atlas if needed)
+# MONGODB_URI=mongodb+srv://testuser:testpass123@synaptixcluster.rvmby1e.mongodb.net/synaptix?retryWrites=true&w=majority
