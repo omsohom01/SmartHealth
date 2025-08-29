@@ -108,7 +108,7 @@ function BookAppointmentClient() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-10 space-y-6">
+    <div className="container mx-auto px-4 py-10 space-y-6 mt-14">
       <h1 className="text-2xl font-semibold">Book Appointment</h1>
 
       <div className="grid md:grid-cols-3 gap-4">
